@@ -1,4 +1,4 @@
-FROM wgfm/scala-sbt
+FROM wgfm/scala-sbt:0.13.13
 
 # gpg keys listed at https://github.com/nodejs/node
 RUN set -ex \
